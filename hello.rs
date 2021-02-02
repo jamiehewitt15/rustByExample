@@ -20,4 +20,14 @@ fn main() {
              object="the smelly cat",
              subject="the big brown fox",
              verb="runs away from");
+
+    println!("{} of {:b} people know binary, the other half doesn't", 1, 20);
+
+    println!("{first_number:>width$}", first_number=1, width=60);
+
+    println!("My name is {0}, {1} {0}", "Bond", "James");
+
+    #[allow(dead_code)]
+    struct Structure(i32);
+    // println!("This struct `{}` won't print...", Structure(3));
 }
